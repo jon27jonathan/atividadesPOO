@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX1",
+            "request": "launch",
+            "mainClass": "EX1",
+            "projectName": "java_14ea8db4"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX2",
+            "request": "launch",
+            "mainClass": "EX2",
+            "projectName": "java_14ea8db4"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX3",
+            "request": "launch",
+            "mainClass": "EX3",
+            "projectName": "java_14ea8db4"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX4",
+            "request": "launch",
+            "mainClass": "EX4",
+            "projectName": "java_14ea8db4"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX5",
+            "request": "launch",
+            "mainClass": "EX5",
+            "projectName": "java_14ea8db4"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX6",
+            "request": "launch",
+            "mainClass": "EX6",
+            "projectName": "java_14ea8db4"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX7",
+            "request": "launch",
+            "mainClass": "EX7",
+            "projectName": "java_14ea8db4"
+        }
+    ]
+}
