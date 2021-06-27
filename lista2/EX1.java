@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class EX1 {
-
+    // Limpa o buffer do enter que estava dando erro
     private static void clearBuffer(Scanner scanner) {
         if (scanner.hasNextLine()) {
             scanner.nextLine();
@@ -20,6 +20,7 @@ public class EX1 {
         int n = sc.nextInt();
         Contato[] contatos = new Contato[n];
 
+        // Limpa o buffer do enter que estava dando erro
         clearBuffer(sc);
         for (int i = 0; i < n; i++) {
             Contato c = new Contato();
