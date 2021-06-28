@@ -3,22 +3,22 @@ import java.util.Scanner;
 public class EX5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N;
+        int n;
         System.out.println("Digite um valor para retornar seu fatorial:");
-        N = sc.nextInt();
-        int Aux = N;
+        n = sc.nextInt();
+        int aux = n;
 
-        if (N > 0) {
-            while (N > 1) {
-                Aux = Aux * (N - 1);
-                N--;
+        if (n > 0) {
+            while (n > 1) {
+                aux = aux * (n - 1);
+                n--;
 
             }
-            System.out.println(Aux);
+            System.out.println(aux);
 
         }
 
-        else if (N == 0) {
+        else if (n == 0) {
 
             System.out.print("1");
 
