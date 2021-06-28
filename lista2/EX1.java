@@ -28,20 +28,20 @@ public class EX1 {
 
             System.out.println("Entre com o nome:");
             String nome = sc.nextLine();
-            c.setNome(nome);
-            c.getNome();
+            c.setnome(nome);
+            c.getnome();
 
             System.out.println("Entre com o telefone:");
             String telefone = sc.nextLine();
-            c.setTelefone(telefone);
+            c.settelefone(telefone);
 
             System.out.println("Entre com o email:");
             String email = sc.nextLine();
-            c.setEmail(email);
+            c.setemail(email);
 
             contatos[i] = c;
         }
-        agenda.setContatos(contatos);
+        agenda.setcontatos(contatos);
         if (agenda != null) {
 
             System.out.println(agenda.obterInfo());

@@ -1,4 +1,5 @@
 public class Casa {
+
     String cor;
     Porta porta1;
     Porta porta2;

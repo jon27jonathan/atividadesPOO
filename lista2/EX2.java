@@ -6,7 +6,7 @@ public class EX2 {
         p1.fazAniversario();
         p1.fazAniversario();
         p1.fazAniversario();
-        System.out.println(p1.getNome() + " " + p1.getIdade());
+        System.out.println(p1.getnome() + " " + p1.getidade());
 
     }
 

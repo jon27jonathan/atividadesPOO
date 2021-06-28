@@ -4,27 +4,27 @@ public class Contato {
     private String telefone;
     private String email;
 
-    public String getNome() {
+    public String getnome() {
         return nome;
     }
 
-    public void setNome(String nome) {
+    public void setnome(String nome) {
         this.nome = nome;
     }
 
-    public String geTelefone() {
+    public String getelefone() {
         return telefone;
     }
 
-    public void setTelefone(String telefone) {
+    public void settelefone(String telefone) {
         this.telefone = telefone;
     }
 
-    public String getEmail() {
+    public String getemail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    public void setemail(String email) {
         this.email = email;
     }
 

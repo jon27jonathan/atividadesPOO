@@ -1,18 +1,19 @@
 public class EX3 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Porta porta = new Porta();
-        porta.pintar("Vermelho");
-        porta.DimensaoX = 60.0;
-        porta.DimensaoY = 2.0;
-        porta.DimensaoZ = 60.0;
+        porta.pintar("azul");
+        porta.dimensaoX = 60.0;
+        porta.dimensaoY = 2.0;
+        porta.dimensaoZ = 60.0;
 
-        porta.Abre();
+        porta.mostrarCordaPorta();
+        porta.abre();
         porta.estaAberta();
-        porta.Fechada();
+        porta.fechada();
         porta.estaAberta();
 
-        System.out.println("As Dimensoes da Porta são :" + "\n" + "X: " + porta.DimensaoX + "\n" + "Y: "
-                + porta.DimensaoY + "\n" + "Z: " + porta.DimensaoZ);
+        System.out.println("As Dimensoes da Porta são :" + "\n" + "X: " + porta.dimensaoX + "\n" + "Y: "
+                + porta.dimensaoY + "\n" + "Z: " + porta.dimensaoZ);
 
     }
 

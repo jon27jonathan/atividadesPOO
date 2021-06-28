@@ -11,19 +11,19 @@ public class Agenda {
         this.nomeagenda = nomeagenda;
     }
 
-    public String getNome() {
+    public String getnome() {
         return nomeagenda;
     }
 
-    public void setNome(String nomeagenda) {
+    public void setnome(String nomeagenda) {
         this.nomeagenda = nomeagenda;
     }
 
-    public Contato[] getContatos() {
+    public Contato[] getcontatos() {
         return contatos;
     }
 
-    public void setContatos(Contato[] contatos) {
+    public void setcontatos(Contato[] contatos) {
         this.contatos = contatos;
 
     }

@@ -7,11 +7,11 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public int getIdade() {
+    public int getidade() {
         return idade;
     }
 
-    public String getNome() {
+    public String getnome() {
         return nome;
     }
 
