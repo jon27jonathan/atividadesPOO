@@ -1,0 +1,15 @@
+public class EX2 {
+    public static void main(String[] args) {
+
+        Pessoa p1 = new Pessoa("jon", 20);
+
+        p1.fazAniversario();
+        p1.fazAniversario();
+        p1.fazAniversario();
+        p1.fazAniversario();
+        p1.fazAniversario();
+        System.out.println(p1.getNome() + " " + p1.getIdade());
+
+    }
+
+}
