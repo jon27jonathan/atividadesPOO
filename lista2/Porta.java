@@ -1,6 +1,7 @@
 public class Porta {
+    boolean aberta = false;
     private String Cor;
-    private boolean Aberta;
+    private boolean Aberta, Fechada;
     double DimensaoX, DimensaoY, DimensaoZ;
 
     void pintar(String Cor) {
@@ -22,6 +23,14 @@ public class Porta {
         }
     }
 
+    void sitPorta() {
+        if (this.Aberta == true) {
+            System.out.println("aberta");
+        } else {
+            System.out.println("fechada");
+        }
+    }
+
     void estaAberta() {
         if (this.Aberta == true) {
             System.out.println("A porta esta Aberta");
@@ -31,4 +40,9 @@ public class Porta {
         }
     }
 
+    void mostra() {
+        System.out.print("A porta " + this.Cor + " de tamanho: " + this.DimensaoX + " x " + this.DimensaoY + " x "
+                + this.DimensaoZ + " esta ");
+        sitPorta();
+    }
 }

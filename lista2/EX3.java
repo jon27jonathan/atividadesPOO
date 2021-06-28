@@ -11,7 +11,6 @@ public class EX3 {
         porta.Fechada();
         porta.estaAberta();
 
-        // System.out.println("A cor da Porta é: " +);
         System.out.println("As Dimensoes da Porta são :" + "\n" + "X: " + porta.DimensaoX + "\n" + "Y: "
                 + porta.DimensaoY + "\n" + "Z: " + porta.DimensaoZ);
 
