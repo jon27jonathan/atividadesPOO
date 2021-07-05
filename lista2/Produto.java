@@ -8,7 +8,6 @@ public class Produto {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
-
     }
 
     public String getnome() {
@@ -17,12 +16,10 @@ public class Produto {
 
     public double getpreco() {
         return preco;
-
     }
 
     public double getquantidade() {
         return quantidade;
-
     }
 
     public void setnome(String codigo) {
@@ -35,12 +32,11 @@ public class Produto {
 
     public void setquantidade(double quantidade) {
         this.quantidade = quantidade;
-
     }
 
     public double somaPreco() {
         return this.precofinal += (this.preco * this.quantidade);
-        // System.out.println(this.precofinal);
+
     }
 
     public void imprime() {

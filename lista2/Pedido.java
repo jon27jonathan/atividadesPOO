@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Pedido {
     Produto[] produtos = new Produto[4];
     int cont = 0;
@@ -10,17 +8,13 @@ public class Pedido {
         cont++;
     }
 
-    public void formaDePagamento() {
-        Scanner sc = new Scanner(System.in);
-        int pagamento = 0;
-
-        while (pagamento != 1 && pagamento != 2 && pagamento != 3) {
-            System.out.println("Escolha o forma de pagamento \n1-Dinheiro\n2-Cheque\n3-Cartão");
-            pagamento = sc.nextInt();
-
-            if (pagamento != 1 && pagamento != 2 && pagamento != 3) {
-                System.out.println("Escolha um metodo de pagamento aceita:");
-            }
+    public void formaDePagamento(int fPagamento) {
+        if (fPagamento == 1) {
+            System.out.println("O pagamento será em Dinheiro");
+        } else if (fPagamento == 2) {
+            System.out.println("O pagamento será em Cheque");
+        } else if (fPagamento == 3) {
+            System.out.println("O pagamento será em Cartão");
         }
     }
 
@@ -37,7 +31,7 @@ public class Pedido {
             soma += produtos[i].somaPreco();
 
         }
-        System.out.println(soma);
+        System.out.println("O preço final dos produtos adicionados é de R$" + soma);
 
     }
 }
