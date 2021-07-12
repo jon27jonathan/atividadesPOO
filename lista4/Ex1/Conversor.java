@@ -1,21 +1,21 @@
 public class Conversor {
-    public static double LitroParaCentimetroCubicos(double qtd) {
-        return qtd * 1000;
+    public static double metrosParaPes(double qtd) {
+        return qtd * 10.76f;
     }
 
-    public static double MetroCubicoParaLitro(double qtd) {
-        return qtd * 1000;
+    public static double pesParaCentimetros(double qtd) {
+        return qtd * 929.0f;
     }
 
-    public static double MetroCubicoParaPesCubicos(double qtd) {
-        return qtd * 35.32;
+    public static double metrosParaCentimetros(double qtd) {
+        return qtd * 1000.0f;
     }
 
-    public static double GalãoAmericanoParaPolegadaCubica(double qtd) {
-        return qtd * 231;
+    public static double metrosParaAcres(double qtd) {
+        return qtd * 4046.8564224f;
     }
 
-    public static double GalaoAmericanoParaLitro(double qtd) {
-        return qtd * 3.785;
+    public static double milhasParaAcres(double qtd) {
+        return qtd * 640.0f;
     }
 }

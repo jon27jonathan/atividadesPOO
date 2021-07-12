@@ -7,12 +7,6 @@ public class Data {
     private String mesAux;
     private int diaAux;
 
-    public Data(int diaAux, String mesAux, int ano) {
-        this.mesAux = mesAux;
-        this.diaAux = diaAux;
-        this.ano = ano;
-    }
-
     public Data(int dia, int mes, int ano) {
         this.dia = dia;
         this.mes = mes;
