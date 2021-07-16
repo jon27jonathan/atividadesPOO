@@ -22,11 +22,11 @@ public class Produto {
         return quantidade;
     }
 
-    public void setnome(String codigo) {
+    public void setnome(String nome) {
         this.nome = nome;
     }
 
-    public void setpreco(double preço) {
+    public void setpreco(double preco) {
         this.preco = preco;
     }
 
