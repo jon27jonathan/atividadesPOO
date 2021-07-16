@@ -23,12 +23,12 @@ public class Ex1 {
         }
         if (n == 2) {
             System.out.println("Dia: ");
-            int getdiaAux = sc.nextInt();
+            int getdia = sc.nextInt();
             System.out.println("Mes: ");
             String getmesAux = sc.next();
             System.out.println("Ano: ");
             int getano = sc.nextInt();
-            Data data1 = new Data(getdiaAux, getmesAux, getano);
+            Data data1 = new Data(getdia, getmesAux, getano);
             ImprimirData2(data1);
         }
         if (n == 3) {
@@ -50,7 +50,7 @@ public class Ex1 {
     }
 
     static void ImprimirData2(Data nova) {
-        System.out.println("Dia: " + nova.getdiaAux() + "," + nova.getmesAux() + "," + nova.getano());
+        System.out.println("Dia: " + nova.getdia() + "," + nova.getmesAux() + "," + nova.getano());
     }
 
     static void ImprimirData3(Data nova) {

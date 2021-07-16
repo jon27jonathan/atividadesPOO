@@ -5,11 +5,16 @@ public class Data {
     private int mes;
     private int ano;
     private String mesAux;
-    private int diaAux;
 
     public Data(int dia, int mes, int ano) {
         this.dia = dia;
         this.mes = mes;
+        this.ano = ano;
+    }
+
+    public Data(int dia, String mesAux, int ano) {
+        this.dia = dia;
+        this.mesAux = mesAux;
         this.ano = ano;
     }
 
@@ -22,10 +27,6 @@ public class Data {
         this.dia = dia;
     }
 
-    public void setdiaAux(int diaAux) {
-        this.diaAux = diaAux;
-    }
-
     public int getdia() {
         return this.dia;
     }
@@ -36,10 +37,6 @@ public class Data {
 
     public int getano() {
         return this.ano;
-    }
-
-    public int getdiaAux() {
-        return this.dia;
     }
 
     public String getmesAux() {
