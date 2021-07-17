@@ -1,3 +1,5 @@
+package EX5;
+
 public class TV {
     private int canal = 0;
     private int volume = 0;

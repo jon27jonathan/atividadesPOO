@@ -1,3 +1,5 @@
+package EX6;
+
 public class Baralho {
 
     int deck = 52;

@@ -1,3 +1,5 @@
+package EX5;
+
 public class EX5 {
     public static void main(String[] args) {
         TV tv = new TV();

@@ -1,3 +1,5 @@
+package EX7;
+
 public class Pedido {
     Produto[] produtos = new Produto[4];
     int cont = 0;
