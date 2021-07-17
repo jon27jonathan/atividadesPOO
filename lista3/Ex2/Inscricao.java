@@ -1,4 +1,3 @@
-package Ex2;
 
 public class Inscricao {
     private String nomeAluno;

@@ -1,5 +1,3 @@
-package EX1;
-
 public class Agenda {
 
     private String nomeagenda;

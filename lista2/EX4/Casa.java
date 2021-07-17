@@ -1,6 +1,3 @@
-package EX4;
-
-import EX3.Porta;
 
 public class Casa {
 

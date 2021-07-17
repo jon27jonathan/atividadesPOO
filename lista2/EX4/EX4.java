@@ -1,6 +1,3 @@
-package EX4;
-
-import EX3.Porta;
 
 public class EX4 {
     public static void main(String[] args) {

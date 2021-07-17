@@ -1,5 +1,3 @@
-package Ex2;
-
 public class Professor {
     private double nota;
 

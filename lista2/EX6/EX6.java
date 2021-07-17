@@ -1,5 +1,3 @@
-package EX6;
-
 public class EX6 {
     public static void main(String[] args) {
         Baralho meuBaralho = new Baralho();

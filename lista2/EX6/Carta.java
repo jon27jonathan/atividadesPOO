@@ -1,5 +1,3 @@
-package EX6;
-
 public class Carta {
     private String nomeCarta;
     private String naipe;
