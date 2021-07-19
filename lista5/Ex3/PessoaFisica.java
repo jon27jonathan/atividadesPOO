@@ -56,7 +56,7 @@ public class PessoaFisica extends Contato {
                 cont += 1;
             }
         }
-        if (cont == 0) {
+        if (cont == 1) {
             System.out.println(pessoaFisica);
         } else {
             System.out.println("Pessoa física não encontrada.\n");

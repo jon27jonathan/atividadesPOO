@@ -82,6 +82,9 @@ public class Ex3 {
         System.out.println("Digite a Pessoa fisica que deseja buscar:");
         String cpf = sc.nextLine();
         PessoaFisica.buscaPF(cpf);
+        System.out.println("Digite a Pessoa juridica que deseja buscar:");
+        String cnpj = sc.nextLine();
+        PessoaJuridica.buscaPJ(cnpj);
 
     }
 }
