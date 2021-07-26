@@ -5,9 +5,18 @@ public class Ex1 {
         novoCirculo.calculaArea();
         novoCirculo.calcularPerimetro();
         novoCirculo.impriResultado();
-        Quadrado novoQuadrado = new Quadrado(5, 3);
+        Quadrado novoQuadrado = new Quadrado(5, 5);
         novoQuadrado.calculaArea();
+        novoQuadrado.calcularPerimetro();
         novoQuadrado.impriResultado();
+        Retangulo novoRetangulo = new Retangulo(5, 2);
+        novoRetangulo.calculaArea();
+        novoRetangulo.calcularPerimetro();
+        novoRetangulo.impriResultado();
+        Triangulo novoTriangulo = new Triangulo(6, 7, 8, 9);
+        novoTriangulo.calculaArea();
+        novoTriangulo.calcularPerimetro();
+        novoTriangulo.impriResultado();
 
     }
 }

@@ -4,6 +4,7 @@ public class Triangulo extends FormaGeometrica {
     private double ladoC;
     private double altura;
     private double area;
+    private double perimetro;
 
     public Triangulo(double ladoA, double base, double ladoC, double altura) {
         this.ladoA = ladoA;
@@ -40,12 +41,16 @@ public class Triangulo extends FormaGeometrica {
 
     @Override
     public double calcularPerimetro() {
+        if (ladoA < base + ladoC && base < ladoA + ladoC && ladoC < ladoA + base) {
+            this.perimetro = ladoA + base + ladoC;
+        }
         return 0;
     }
 
     @Override
     public double impriResultado() {
-        System.out.println("\nA área do triangulo é: " + this.area);
+        System.out.println("A área do triangulo é: " + this.area);
+        System.out.println("A perimetro do triangulo é: " + this.perimetro);
         return 0;
     }
 }
