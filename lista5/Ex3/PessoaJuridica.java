@@ -44,5 +44,6 @@ public class PessoaJuridica extends Contato {
     }
 
     public static void buscaPJ(String cnpj) {
-       
+
+    }
 }

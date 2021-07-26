@@ -45,21 +45,5 @@ public class PessoaFisica extends Contato {
     }
 
     public static void buscaPF(String cpf) {
-        int cont = 0;
-        String pessoaFisica = null;
-        System.out.println("[Busca por CPF: " + cpf + "]");
-        for (int i = 0; i < Agenda.agendaPF.size(); i++) {
-            if (cpf == Agenda.agendaPF.get(i).getCpf()) {
-                pessoaFisica = "Nome: " + Agenda.agendaPF.get(i).getNome() + "\nCPF: " + Agenda.agendaPF.get(i).getCpf()
-                        + "\n" + "Endereço: " + Agenda.agendaPF.get(i).getEndereco() + "\nAniversário: "
-                        + Agenda.agendaPF.get(i).getNascimento() + "\n";
-                cont += 1;
-            }
-        }
-        if (cont == 1) {
-            System.out.println(pessoaFisica);
-        } else {
-            System.out.println("Pessoa física não encontrada.\n");
-        }
-    }
+        
 }
