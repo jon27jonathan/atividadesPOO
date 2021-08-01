@@ -30,4 +30,7 @@ public class Retangulo extends FormaGeometrica {
         return 0;
     }
 
+    public void impriArea() {
+    }
+
 }

@@ -16,7 +16,7 @@ public class Quadrado extends FormaGeometrica {
         if (lado == lado2) {
             this.area = this.lado * this.lado2;
         } else {
-            System.out.println("\nNão é um quadrado e sim um retangulo");
+            System.out.println("Não é um quadrado e sim um retangulo");
         }
         return 0;
     }
@@ -26,7 +26,7 @@ public class Quadrado extends FormaGeometrica {
         if (lado == lado2) {
             this.perimetro = this.lado * 4;
         } else {
-            System.out.println("\nNão é um quadrado e sim um retangulo");
+            System.out.println("Não é um quadrado e sim um retangulo");
         }
         return 0;
     }
@@ -34,8 +34,8 @@ public class Quadrado extends FormaGeometrica {
     @Override
     public double impriResultado() {
         if (lado == lado2) {
-            System.out.println("\nA área do quadrado é: " + this.area);
-            System.out.println("O perimetro do quadrado é: " + this.perimetro);
+            System.out.println("A área do quadrado é: " + this.area);
+            System.out.println("A perimetro do quadrado é: " + this.perimetro);
         } else {
             System.out.println("A área do retangulo é: " + (lado * lado2));
             System.out.println("A perimetro do retangulo é: " + ((2 * lado) + (2 * lado2)));

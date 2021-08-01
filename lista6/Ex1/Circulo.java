@@ -29,7 +29,7 @@ public class Circulo extends FormaGeometrica {
     @Override
     public double impriResultado() {
         System.out.printf("A área do circulo: " + df.format(this.area));
-        System.out.printf(" \nO perimetro do circulo: " + df.format(this.perimetro));
+        System.out.printf("\nO perimetro do circulo: " + df.format(this.perimetro));
         return 0;
     }
 
