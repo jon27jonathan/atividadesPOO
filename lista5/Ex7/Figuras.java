@@ -2,7 +2,9 @@ public abstract class Figuras {
     protected double area;
     protected double perimetro;
 
-    public abstract double calculaArea();
+    public void calculaArea() {
+
+    }
 
     public abstract double impriArea();
 
