@@ -1,5 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "lista6/Ex1",
+        "lista5/Ex6",
+        "lista5/Ex5",
         "lista5/Ex3",
         "lista5/Ex2",
         "lista5/Ex1",
@@ -15,7 +18,7 @@
         "lista2/EX2",
         "lista2/EX1",
         "lista1",
-        "lista6/Ex1"
+        "lista5/Ex7"
     ],
     "C_Cpp.errorSquiggles": "Enabled"
 }

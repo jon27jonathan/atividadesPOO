@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex7",
+            "request": "launch",
+            "mainClass": "Ex7",
+            "projectName": "atividadesPOO_939b9040"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2",
+            "request": "launch",
+            "mainClass": "Ex2",
+            "projectName": "atividadesPOO_939b9040"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6",
+            "request": "launch",
+            "mainClass": "Ex6",
+            "projectName": "atividadesPOO_939b9040"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex5",
+            "request": "launch",
+            "mainClass": "Ex5",
+            "projectName": "atividadesPOO_939b9040"
+        },
+        {
+            "type": "java",
             "name": "Launch Ex1",
             "request": "launch",
             "mainClass": "Ex1",
